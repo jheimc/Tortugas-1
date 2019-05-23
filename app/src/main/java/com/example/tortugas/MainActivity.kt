@@ -19,6 +19,21 @@ class MainActivity : AppCompatActivity() {
             tortuga.setImageResource(R.drawable.tmntleo)
 
 
+        }else{
+
+            if(view == rb_don){
+
+                tortuga.setImageResource(R.drawable.tmntdon)
+
+            }else(
+                   if(view == rb_miguel){
+
+                       tortuga.setImageResource(R.drawable.tmntmike)
+                   } else{
+
+                       tortuga.setImageResource(R.drawable.tmntraph)
+                   }
+              )
         }
 
 
